@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Taquería</title>
+	<link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="shortcut icon" href="img/taco.jpg">
+</head>
+<body>
+	<img src="img/Taqueria2.png" alt="Tacos" id="imagen-principal">
+	<aside id="side-right">
+		<div class="login-box">
+			<h1>Bienvenido</h1>
+			<form>
+				<!--Usuario-->
+				<div class="label">
+					<label for="username">Usuario</label><br>
+					<input type="text" placeholder="Ingrese usuario"><br>
+					<!--Contraseña-->
+					<label for="password">Contraseña</label><br>
+					<input type="password" placeholder="Contraseña"><br>
+					<!--Registrarse o iniciar sesión-->
+					<input type="submit" value="Iniciar Sesion">
+					<input type="submit" value="Registrarse">
+				</div>
+			</form>	
+		</div>
+		<img src="img/promocion.jpg" alt="promocion1">
+		<img src="img/promocion3.jpg" alt="promocion3">
+		<img src="img/promocion4.jpg" alt="promocion4">
+		<img src="img/promocion5.jpg" alt="promocion5">
+	</aside>
+	<section>
+		<div class="cards">
+			<h2>Camaron</h2>
+			<img src="img/tacoscamaron.jpg" alt="tacocamaron">
+			<p><span>Mariscos Frescos</span></p>
+		</div>
+		<div class="cards">
+			<h2>Carnitas</h2>
+			<img src="img/tacoscarnitas.jpg" alt="tacocarnitas">
+			<p><span>Maciza, Chamorro, Buche y más...</span></p>
+		</div>
+		<div class="cards">
+			<h2>Embutidos</h2>
+			<img src="img/tacoschorizo.jpg" alt="tacoembutido">
+			<p><span>Chorizo y Longaniza</span></p>
+		</div>
+		<div class="cards">
+			<h2>Mixiotes</h2>
+			<img src="img/tacosmixiote.jpg" alt="tacomixiote">
+			<p><span>Carnero, Conejo, Puerco y Res</span></p>
+		</div>
+		<div class="cards">
+			<h2>Al pastor</h2>
+			<img src="img/tacospastor.jpg" alt="tacopastor">
+			<p><span>Queso o piña extra</span></p>
+		</div>
+		<div class="cards">
+			<h2>Veganos</h2>
+			<img src="img/tacosveganos.jpg" alt="tacovegano">
+			<p><span>Yaca, Hongos, Tempeh con Tequila y más...</span></p>
+		</div>
+		<div class="Encuesta">
+			<table>
+			<!--tr = fila
+				th = columna-->
+				<tr>
+					<th>Muy bueno</th>
+					<th>Regular</th>
+					<th>Malo</th>
+					<th>Encuesta</th>
+				</tr>	
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>1.¿Qué te pareció el servicio?</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>2.-¿Cómo te pareció nuestro menú?</td>
+				</tr>
+				<tr>
+					<!--td = secundario-->
+					<td></td>
+					<td></td>
+					<td></td>
+					<td>3.-¿Cómo calificarías nuestro servicio?</td>
+				</tr>
+				<!--Rowspan = Cuantas filas voy a ocupar-->
+				<!--colspan = Cuantas columnas voy a ocupar-->
+				<tr>
+					<td rowspan="3" colspan="3">Sucursales</td>
+					<td>España</td>
+				</tr>
+				<tr>
+					<td>Francia</td>
+				</tr>
+				<tr>
+					<td>Moscú</td>
+				</tr>
+			</table>
+			<input type="submit" value="Enviar">
+			<input type="submit" value="Reiniciar">
+		</div>
+	</section>
+	<footer>
+		<a href="https://www.google.com.mx/search?q=tempeh&rlz=1C1CHBD_esMX782MX782&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjvq-q-uefbAhUSRK0KHfruB0kQ_AUIDCgD&biw=1164&bih=835" target="blank">Para mayor información visita</a>
+	</footer>
+</body>
+</html>

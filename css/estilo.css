@@ -1,0 +1,88 @@
+#imagen-principal{
+	width: 100%;
+}
+body{
+	background: #BE3838;
+	margin: 1% 2%; 
+}
+#side-right{
+	width: 30%;
+	float: right;
+}
+aside img{
+	width: 100%;
+}
+.login-box{
+	margin-bottom: 10px;
+	width: 100%;
+	background: url("../img/encuesta.jpg");
+	padding-right: 5%;
+	padding-left: 5%;
+	border:#663 5px solid;
+	box-sizing: border-box;
+}
+.login-box h1{
+	text-align: center;
+	background: white;
+	font-size: 2.5em;
+	border-radius: 80%;  
+}
+.login-box input[type = "text"], input[type = "password"]{
+	width: 100%;
+	height: 40px;
+	font-size: 1em;
+	margin-bottom: 20px;
+	border: none;
+	border-bottom: 3px solid black;
+	background: transparent;
+}
+
+.login-box input[type = "submit"]{
+	height: 40px;
+	background-color: black;
+	font-size: 1em;
+	border-radius: 20px;
+	color: white;
+} 
+
+.login-box input[type = "submit"]:hover{
+	color: green;
+	background: yellow;
+	font-size: 19px;
+}
+
+.login-box label{
+ 	background: white;
+ 	text-align: center;
+ }
+ /*Sección de cartas*/
+ .cards{
+ 	width: 21%;
+ 	display: inline-block;
+ 	border:3px blue solid;
+ 	margin: 5px;
+ 	background: orange;
+ 	color:white;
+ 	text-align: center; 
+ }
+  .cards img{
+  	width: 100%;
+  	height: 150px;
+  }
+
+.Encuesta{
+	width: 80%;
+	text-align: center;
+	font-family:'Eater', cursive;
+ }
+ .Encuesta table{
+ 	text-align: center;
+ 	width: 85%;
+ 	background: white; 
+ }
+ table, th, td{
+ 	border: 3px solid black;
+ 	font-size: 19px;
+ 	font-family: 'Oswald', sans-serif;
+ 	border-collapse: collapse; 
+ }
